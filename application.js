@@ -32,10 +32,6 @@ app.use('/lead', require('./lib/lead.js')());
 // Important that this is last!
 app.use(mbaasExpress.errorHandler());
 
-$fh.log({
-  message: 'testing logging'
-});
-
 var port = process.env.FH_PORT || process.env.VCAP_APP_PORT || 8001;
 var server = app.listen(port, function() {
   console.log("App started at: " + new Date() + " on port: " + port);
