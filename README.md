@@ -30,15 +30,15 @@ Lead endpoint
 
 ## lead [POST] 
 
-	Lead submission endpoint
+Lead submission endpoint
 
 + Request (application/json)
     + Body
             { 
-            	"name": "John Doe", 
-            	"email": "john@doe.com", 
-            	"company": "Home Ltd."
-            	"job": "Architect"
+                "name": "John Doe", 
+                "email": "john@doe.com", 
+                "company": "Home Ltd."
+                "job": "Architect"
             }
 
 + Response 200 (application/json)
