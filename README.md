@@ -2,7 +2,7 @@
 
 This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for building your APIs. 
 
-# Group Hello World API
+# Backend API
 
 # hello [/hello]
 
@@ -16,6 +16,29 @@ This is a blank 'hello world' FeedHenry MBaaS. Use it as a starting point for bu
     + Body
             {
               "hello": "world"
+            }
+
++ Response 200 (application/json)
+    + Body
+            {
+              "msg": "Hello world"
+            }
+
+# lead [/lead]
+
+Lead endpoint
+
+## lead [POST] 
+
+	Lead submission endpoint
+
++ Request (application/json)
+    + Body
+            { 
+            	"name": "John Doe", 
+            	"email": "john@doe.com", 
+            	"company": "Home Ltd."
+            	"job": "Architect"
             }
 
 + Response 200 (application/json)
