@@ -37,7 +37,7 @@ Lead submission endpoint
             { 
                 "name": "John Doe", 
                 "email": "john@doe.com", 
-                "company": "Home Ltd."
+                "company": "Home Ltd.",
                 "job": "Architect"
             }
 
